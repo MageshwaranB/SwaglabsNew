@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7348" started-at="2021-08-24T16:54:51 IST" finished-at="2021-08-24T16:54:58 IST">
+    <groups>
+      <group name="LoginPage">
+        <method signature="LoginPageTest.loginActivityTest()[pri:0, instance:com.testcases.LoginPageTest@7ce6a65d]" name="loginActivityTest" class="com.testcases.LoginPageTest"/>
+      </group> <!-- LoginPage -->
+    </groups>
+    <test name="Default test" duration-ms="7348" started-at="2021-08-24T16:54:51 IST" finished-at="2021-08-24T16:54:58 IST">
+      <class name="com.testcases.LoginPageTest">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.testcases.LoginPageTest@7ce6a65d]" name="browserSetup" is-config="true" duration-ms="12603" started-at="2021-08-24T16:54:38 IST" finished-at="2021-08-24T16:54:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="loginActivityTest()[pri:0, instance:com.testcases.LoginPageTest@7ce6a65d]" name="loginActivityTest" duration-ms="739" started-at="2021-08-24T16:54:51 IST" finished-at="2021-08-24T16:54:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginActivityTest -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.testcases.LoginPageTest@7ce6a65d]" name="browserClose" is-config="true" duration-ms="939" started-at="2021-08-24T16:54:58 IST" finished-at="2021-08-24T16:54:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.testcases.LoginPageTest -->
+      <class name="com.testcases.HomePageTest">
+        <test-method status="PASS" signature="addingItemsTest()[pri:0, instance:com.testcases.HomePageTest@cb51256]" name="addingItemsTest" duration-ms="578" depends-on-groups="LoginPage" started-at="2021-08-24T16:54:52 IST" finished-at="2021-08-24T16:54:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingItemsTest -->
+        <test-method status="PASS" signature="buyingProductTest()[pri:0, instance:com.testcases.HomePageTest@cb51256]" name="buyingProductTest" duration-ms="5005" started-at="2021-08-24T16:54:52 IST" depends-on-methods="com.testcases.HomePageTest.addingItemsTest" finished-at="2021-08-24T16:54:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyingProductTest -->
+        <test-method status="PASS" signature="dropDownTest()[pri:0, instance:com.testcases.HomePageTest@cb51256]" name="dropDownTest" duration-ms="760" started-at="2021-08-24T16:54:57 IST" depends-on-methods="com.testcases.HomePageTest.buyingProductTest" finished-at="2021-08-24T16:54:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownTest -->
+        <test-method status="PASS" signature="loggingoutFromWebsiteTest()[pri:0, instance:com.testcases.HomePageTest@cb51256]" name="loggingoutFromWebsiteTest" duration-ms="189" started-at="2021-08-24T16:54:58 IST" depends-on-methods="com.testcases.HomePageTest.dropDownTest" finished-at="2021-08-24T16:54:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingoutFromWebsiteTest -->
+      </class> <!-- com.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
